@@ -13,14 +13,14 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Target
 TARGET_SUPPORTS_QUICK_TAP := true
 
-#AOSP Recovery
-TARGET_USES_AOSP_RECOVERY := true
+#derp Recovery
+# TARGET_USES_derp_RECOVERY := true
 
-# Inherit some common AOSP stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common derp stuff
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := aosp_RMX2061
+PRODUCT_NAME := derp_RMX2061
 PRODUCT_DEVICE := RMX2061
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX2061
